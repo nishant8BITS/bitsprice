@@ -5,6 +5,17 @@ const Navbar = () => (
     <ul>
       <li>
         <Link href="/">
+          <a>
+            <img
+              src="/static/image/558390-11FO8A1505384509.png"
+              style={{
+                height: "45px",
+                width: "auto"
+              }}
+            />
+          </a>
+        </Link>
+        <Link href="/">
           <a>Home</a>
         </Link>
         <Link href="/about">
@@ -12,16 +23,17 @@ const Navbar = () => (
         </Link>
       </li>
     </ul>
-    <style jsx>{`
-            ul{
-                background: #333;
-            }
+    <style jsx>
+      {`
+        ul {
+          background: #333;
+        }
 
-            ul li a {
-                color: #fff;
-                margin-left:10px;
-            }
-        `}
+        ul li a {
+          color: #fff;
+          margin-left: 10px;
+        }
+      `}
     </style>
   </div>
 );
